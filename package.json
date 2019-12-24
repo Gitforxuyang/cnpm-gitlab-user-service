@@ -1,0 +1,17 @@
+{
+  "name": "cnpm-gitlab-user-service",
+  "version": "0.0.5",
+  "description": "fix:修改admin的bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
