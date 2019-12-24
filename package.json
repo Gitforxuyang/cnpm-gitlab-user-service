@@ -1,6 +1,6 @@
 {
   "name": "cnpm-gitlab-user-service",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "fix:修改admin的bug",
   "main": "index.js",
   "scripts": {

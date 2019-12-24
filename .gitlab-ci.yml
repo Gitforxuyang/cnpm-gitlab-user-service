@@ -8,8 +8,8 @@ job2:
   script:
     - echo "build start"
     - cnpm config set registry http://registry.npm.neoclub.cn
-    - cnpm config set //registry.npm.neoclub.cn/:email "admin@neoclub.cn"
-    - cnpm config set //registry.npm.neoclub.cn/:username "admin"
-    - cnpm config set //registry.npm.neoclub.cn/:_password "YWRtaW5AMTIzNDU2"
+    - cnpm config set //registry.npm.neoclub.cn/:email ${email}
+    - cnpm config set //registry.npm.neoclub.cn/:username ${username}
+    - cnpm config set //registry.npm.neoclub.cn/:_password ${password}
     - cnpm publish
     - echo "build success"
