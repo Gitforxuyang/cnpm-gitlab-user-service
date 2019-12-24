@@ -7,7 +7,6 @@ job2:
   stage: build
   script:
     - echo "build start"
-    # - cnpm login
-    # - expect ""
-    - echo ${username}
+    - cnpm login
+    - expect ${username}
     - echo "build success"
