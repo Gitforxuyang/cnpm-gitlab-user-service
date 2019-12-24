@@ -7,15 +7,8 @@ job2:
   stage: build
   script:
     - echo "build start"
-    - spawn cnpm login
-
-    - expect "Username:"
-    - send "admin"
-
-    - expect "Password:"
-    - send "admin@123456"
-
-    - expect "Email:"
-    - send "admin@neoclub.cn"
-
+    - cnpm config set //registry.npm.neoclub.cn/:email  "admin@neoclub.cn"
+    - cnpm config set //registry.npm.neoclub.cn/:username  "admin"
+    - cnpm config set //registry.npm.neoclub.cn/:password  "admin@123456"
+    - cnpm publish
     - echo "build success"
