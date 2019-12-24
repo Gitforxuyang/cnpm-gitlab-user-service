@@ -7,4 +7,5 @@ job2:
   stage: build
   script:
     - echo "build start"
+    - cnpm version
     - echo "build success"
