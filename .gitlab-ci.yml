@@ -7,6 +7,7 @@ job2:
   stage: build
   script:
     - echo "build start"
+    - cnpm config set registry http://registry.npm.neoclub.cn
     - cnpm config set //registry.npm.neoclub.cn/:email "admin@neoclub.cn"
     - cnpm config set //registry.npm.neoclub.cn/:username "admin"
     - cnpm config set //registry.npm.neoclub.cn/:_password "YWRtaW5AMTIzNDU2"
