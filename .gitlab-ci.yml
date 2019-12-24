@@ -8,5 +8,6 @@ job2:
   script:
     - echo "build start"
     - cnpm login
-    - expect ${username}
+    - expect "Username:"
+    - send ${username}
     - echo "build success"
