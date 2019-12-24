@@ -1,7 +1,7 @@
 {
   "name": "@uki/cnpm-gitlab-user-service",
-  "version": "0.0.2",
-  "description": "fix:修改admin的bug",
+  "version": "0.0.3",
+  "description": "fix:设置",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

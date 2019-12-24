@@ -1,5 +1,4 @@
 const request = require('request');
-
 class UserService {
     //必传gitlab api地址和私有token
     constructor(api, privateToken, admin) {
