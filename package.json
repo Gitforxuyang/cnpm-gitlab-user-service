@@ -1,6 +1,6 @@
 {
-  "name": "@uki/cnpm-gitlab-user-service",
-  "version": "0.0.3",
+  "name": "cnpm-gitlab-user-service",
+  "version": "1.0.0",
   "description": "fix:设置",
   "main": "index.js",
   "scripts": {
