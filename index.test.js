@@ -1,13 +1,13 @@
 const service = require('./index');
 (async () => {
-    const userService = new service.UserService('https://gitlab.neoclub.cn', 'akE1dLS5EuB-KDcwGdym', {
-        login: 'admin',
-        password: 'admin@123456',
-        email: 'admin@neoclub.com',
+    const userService = new service.UserService('https://gitlab.neoclub.cn', '123213213', {
+        login: 'admin12123',
+        password: '123456',
+        email: 'admin@qq.com',
         site_admin: true
     })
     // console.log(userService)
-    const auth = await userService.auth('admin', 'admin@123456')
+    const auth = await userService.auth('admin', '12321321')
     console.log(auth)
     // console.log(await userService.get('xuyang'))
     // console.log(await userService.get('admin'))
