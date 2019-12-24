@@ -8,13 +8,11 @@ job2:
   script:
     - echo "build start"
     - cnpm login
-    - expect "Username:"
-    - send "admin"
 
-    - expect "Password:"
-    - send "admin@123456"
+    - "admin"
 
-    - expect "Email:"
-    - send "admin@neoclub.cn"
+    - "admin@123456"
+
+    - "admin@neoclub.cn"
 
     - echo "build success"
