@@ -1,14 +1,5 @@
 const request = require('request');
 
-// const users = [
-//     {
-//         login: 'lonord',
-//         password: 'xxxxxxxx',
-//         email: 'lonord@qq.com',
-//         site_admin: true
-//     }
-// ]
-
 class UserService {
     //必传gitlab api地址和私有token
     constructor(api, privateToken, admin) {

@@ -1,6 +1,6 @@
 {
   "name": "@uki/cnpm-gitlab-user-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fix:修改admin的bug",
   "main": "index.js",
   "scripts": {

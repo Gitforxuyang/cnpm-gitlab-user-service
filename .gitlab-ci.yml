@@ -3,7 +3,7 @@ stages:
   - build
 
 # 打包push
-job2:
+job:
   stage: build
   script:
     - echo "build start"
