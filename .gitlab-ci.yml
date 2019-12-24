@@ -7,12 +7,15 @@ job2:
   stage: build
   script:
     - echo "build start"
-    - cnpm login
+    - spawn cnpm login
 
-    - "admin"
+    - expect "Username:"
+    - send "admin"
 
-    - "admin@123456"
+    - expect "Password:"
+    - send "admin@123456"
 
-    - "admin@neoclub.cn"
+    - expect "Email:"
+    - send "admin@neoclub.cn"
 
     - echo "build success"
