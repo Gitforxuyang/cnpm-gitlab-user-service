@@ -1,7 +1,7 @@
 const service = require('./index');
 (async () => {
-    const userService = new service.UserService('https://gitlab.neoclub.cn', '123213213', {
-        login: 'admin12123',
+    const userService = new service.UserService('https://gitlab.com', '123123', {
+        login: 'admin',
         password: '123456',
         email: 'admin@qq.com',
         site_admin: true
