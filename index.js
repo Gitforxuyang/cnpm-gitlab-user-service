@@ -72,7 +72,7 @@ class UserService {
             const user = {
                 login,
                 password,
-                email: info.email,
+                email: 'admin@qq.com',
                 site_admin: false,
             }
             this.userMap.set(login, user)
